@@ -20,7 +20,7 @@ export const ProductCard = props => {
 						<img className="d-block w-100" src={props.image}/>
 						<p><span>{props.price}</span></p>
 						<button /* onClick={() => actions.setShoppingCart(props.title)} */ className="boton compra">
-							Añadir a la cesta
+							Añadir a la cesta <3
 						</button>
 					</div>
 				</div>
