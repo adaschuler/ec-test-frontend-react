@@ -1,0 +1,25 @@
+.compra{
+    margin-top: 50px;
+    display: table;
+    margin: 0 auto;
+}
+.ficha-body{
+    justify-content: center;
+    /* border-radius: 15px; */
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgb(100 100 100 / 50%);
+}
+/* .ficha-body:hover {
+    border-radius: 20px;
+    box-shadow: 0 3px 15px black;
+} */
+.ficha-title{
+    margin-top: 10px;
+}
+.ficha-text{
+    background-color:whitesmoke;
+}
+img {
+width: 200px;
+}

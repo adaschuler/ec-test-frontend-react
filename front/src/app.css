@@ -1,0 +1,35 @@
+.productlist{
+    
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5px;
+    justify-content: center;
+    background-color:whitesmoke;
+    display: block;
+    
+}
+
+/* For desktop: */
+@media(min-width:768px){
+    .ficha{
+        padding: 10px;
+        margin: 2px;
+        flex-wrap: wrap;
+        float:left;
+        display: flex;
+        align-items: center;
+    }
+}
+/* For mobile and phones: */
+@media(max-width:768px){
+    .ficha {
+        padding: 10px;
+        margin: 2px;
+        margin-bottom: 5px;
+        flex-wrap: wrap;
+        float:left;
+        display: flex;
+        align-items: center;   
+   }
+   
+}
