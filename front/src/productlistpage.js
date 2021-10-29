@@ -10,9 +10,8 @@ export const ProductListPage = () => {
 	}, []);
 
 	return (
-		<div className="">
+		<div className="center">
 			<div className="">
-            {/* {store.productsList} */}ola
 				{store.productsList.map((item, index) => {
 					let linkUrl = index + 1;
 					let URLimage="http://localhost:5000";

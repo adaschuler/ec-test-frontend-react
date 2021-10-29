@@ -5,6 +5,9 @@ import ScrollToTop from "./scrollToTop";
 import { App } from "./app";
 import injectContext from "./appContext";
 
+import { Navbar } from "./navbar";
+import { Footer } from "./footer";
+
 //create your first component
 const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -15,13 +18,13 @@ const Layout = () => {
 		<div>
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
-					{/* <Navbar /> */}
+					<Navbar />
 					<Switch>
 						<Route exact path="/">
 							<App />
 						</Route>
 					</Switch>
-					{/* <Footer /> */}
+					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
 		</div>

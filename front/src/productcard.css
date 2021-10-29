@@ -5,21 +5,21 @@
 }
 .ficha-body{
     justify-content: center;
+    width: 300px;
     /* border-radius: 15px; */
     padding: 40px;
     background-color: white;
     box-shadow: 0 3px 15px rgb(100 100 100 / 50%);
 }
-/* .ficha-body:hover {
-    border-radius: 20px;
-    box-shadow: 0 3px 15px black;
-} */
+.ficha-body:hover {
+    box-shadow: 0 3px 15px rgb(68, 0, 255);
+}
 .ficha-title{
     margin-top: 10px;
 }
 .ficha-text{
     background-color:whitesmoke;
 }
-img {
+.imgproduct {
 width: 200px;
 }

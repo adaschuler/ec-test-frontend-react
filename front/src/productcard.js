@@ -17,10 +17,10 @@ export const ProductCard = props => {
 						<h5 className="ficha-title">{props.title}</h5>
 					</div>
 					<div>
-						<img className="d-block w-100" src={props.image}/>
+						<img className="imgproduct" src={props.image}/>
 						<p><span>{props.price}</span></p>
-						<button /* onClick={() => actions.setShoppingCart(props.title)} */ className="boton compra">
-							Añadir a la cesta <3
+						<button onClick={() => actions.setShoppingCart(props.title)} className="boton compra">
+							Añadir a la cesta 
 						</button>
 					</div>
 				</div>

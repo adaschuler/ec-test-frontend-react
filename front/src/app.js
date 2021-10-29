@@ -22,8 +22,7 @@ export const App = () => {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <h1> Prueba tecnica front Ecomsur 2021</h1>
-      <p>Borra esto y comienza aqui.</p>
+      <span className="titulo">Prueba tecnica front Ecomsur 2021</span>
       {/* Check to see if express server is running correctly */}
       <h5>{response}</h5>
       <div className="productlist">
