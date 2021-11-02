@@ -4,7 +4,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
 			productsList: [],
-			urlProducts: "http://192.168.1.96:5000/api/products/",
+			urlProducts: "http://localhost:5000/api/products/",
 			shoppingCart: [],
 		},
 		actions: {
@@ -18,7 +18,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				setStore({ shoppingCart: getStore().shoppingCart.filter(producto => producto !== tituloproducto) });
 			},
             axiosProducts: () => {
-                    axios.get("http://192.168.1.96:5000/api/products/").then(result=>{
+                    axios.get("http://localhost:5000/api/products/").then(result=>{
                         console.log("resultado",result.data)
                         setStore({ productsList: result.data })
                     })
