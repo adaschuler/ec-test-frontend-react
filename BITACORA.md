@@ -14,11 +14,11 @@ Todo está configurado para correr con un solo comando
 `npm run dev`
 
 Esto correrá ambas aplicaciones (Express y CRA) al mismo tiempo.
-- CRA se encuentra en:  `http://localhost:3000/` y se ve de la siguiente forma: 
+- CRA se encuentra en:  `http://localhost:3000/` <!-- y se ve de la siguiente forma: 
 
 <p>
  <img src="https://raw.githubusercontent.com/adaschuler/ec-test-frontend-react/blob/main/demogif.gif"/>
-</p>
+</p> -->
 
 - El servidor se encuentra en:  `http://localhost:5000/`
 
